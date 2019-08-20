@@ -1,0 +1,123 @@
+.contatos{
+	position: absolute;
+	background-color: #fffffff0;
+	height: 530px;
+	width: 80%;
+	top: 150px;
+	left: 9%;
+	border-radius: 30px;
+	font-family: Arial,sans-serif;
+	border: 2px solid #000000;
+}
+
+.contatos:hover{
+	position: absolute;
+	background-color: #000000f0;
+	height: 530px;
+	width: 80%;
+	top: 150px;
+	left: 9%;
+	color: #ffffff;
+	border-radius: 30px;
+	font-family: Arial,sans-serif;
+	border: 2px solid #ffffff;
+}
+
+.nomesite2{
+	position: absolute;
+	height: 100px;
+	width: 355px;
+	top: 270px;
+	left: 36%;
+	color: #000000;
+	border-radius: 20px;
+	font-family: Arial,sans-serif;
+	border: 2px solid #000000;
+}
+
+.nomesite2:hover{
+	position: absolute;
+	height: 100px;
+	width: 355px;
+	top: 270px;
+	left: 36%;
+	color: #ffffff;
+	background-color:#000000;
+	border-radius: 20px;
+	font-family: Arial,sans-serif;
+	border: 2px solid #ffffff;
+}
+
+/*rodapé*/
+.rodape{
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	left: -1px;
+	border-right: 1px solid #000000;
+	top: 750px;
+	background-color: #000000;
+	font-family: Arial,sans-serif;
+	color: #ffffff;
+}
+
+.nomesite{
+	position: absolute;
+	height: 70px;
+	width: 300px;
+	top: 30px;
+	left: 78%;
+	color: #ffffff;
+	font-family: Arial,sans-serif;
+	border-radius: 20px;
+	border: 2px solid #ffffff;
+}
+
+/*cabeçalho*/
+header{
+	position: fixed;
+	height: 120px;
+	width: 101%;
+	top: -15px;
+	left: -10px;
+	font-family: Arial,sans-serif;
+	background-color: #000000;
+	border-radius: 30px;
+}
+	
+.link0{
+	position: fixed;
+	height: 20px;
+	width: 100px;
+	top: 45px;
+	margin-left: 10px;
+	background-color: #000000;
+	color: #ffffff;
+	font-family: Arial,sans-serif;
+	border-right: 2px solid #ffffff;
+	
+}
+
+.link1{
+	position: fixed;
+	height: 20px;
+	width: 100px;
+	top: 45px;
+	margin-left: 120px;
+	background-color: #000000;
+	color: #ffffff;
+	font-family: Arial,sans-serif;
+	border-right: 2px solid #ffffff;
+}
+
+.link2{
+	position: fixed;
+	height: 20px;
+	width: 100px;
+	top: 45px;
+	margin-left: 230px;
+	background-color: #000000;
+	color: #ffffff;
+	font-family: Arial,sans-serif;
+	border-right: 2px solid #ffffff;
+}

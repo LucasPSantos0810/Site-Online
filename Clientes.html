@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> Home </title>
+	<link rel="stylesheet" type="text/css" href="clientes.css">
+	<style>
+	body{ background-image: url("aula.png"); background-size: 100%;}
+	</style>
+</head>
+<body>
+	
+	<div class="container">
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+     
+    <div class="content">      
+      <!--FORMULÁRIO DE LOGIN-->
+      <div id="login">
+        <form method="post" action=""> 
+          <h1>Login</h1> 
+          <p> 
+            <label for="nome_login">Seu E-mail</label>
+            <input id="nome_login" name="nome_login" required="required" type="text" placeholder="ex. usuario@email.com"/>
+          </p>
+           
+          <p> 
+            <label for="email_login">Sua Senha</label>
+            <input id="email_login" name="email_login" required="required" type="password" placeholder="ex. senha" /> 
+          </p>
+           
+          <p> 
+            <input type="submit" value="Logar"/>
+          </p>
+           
+          <p class="link">
+            Ainda não tem conta?
+            <a href="#paracadastro">Cadastre-se</a>
+          </p>
+        </form>
+      </div>
+
+	<div id="cadastro">
+        <form method="post" action=""> 
+          <h1>Cadastro</h1> 
+           
+          <p> 
+            <label for="nome_cad">Seu Nome</label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="ex. nome" />
+          </p>
+           
+          <p> 
+            <label for="email_cad">Seu E-mail</label>
+            <input id="email_cad" name="email_cad" required="required" type="email" placeholder="ex. usuario@email.com"/> 
+          </p>
+           
+          <p> 
+            <label for="senha_cad">Sua Senha</label>
+            <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
+          </p>
+           
+          <p> 
+            <input type="submit" value="Cadastrar" />
+          </p>
+           
+          <p class="link">  
+            Já tem conta?
+            <a href="#paralogin"> Ir para Login </a>
+          </p>
+        </form>
+      </div>
+	</div>
+
+	<div class="rodape">
+	<br>
+	<center><h2> Luska's WEB Site </h2></center>
+	</div>
+
+	<header>
+		<a href="Home.html"><div class="link0"><center>Inicio</center></div></a>
+		<a href="Contatos.html"><div class="link1"><center>Contato</center></div></a>
+		<a href="Clientes.html"><div class="link2"><center>Clientes</center></div></a>
+		
+		<div class="nomesite">
+		<center><h2> Luska's WEB Site </h2></center>
+		</div>
+	</header>
+
+</body>
+</html>
